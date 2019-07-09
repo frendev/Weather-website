@@ -18,7 +18,7 @@ const forecast=(lat,long,callback)=>{
         }
         else
         {
-            callback(undefined,'it is currently '+body.currently.temperature+ ' degrees.There is a '+body.currently.precipProbability+' % of rain')
+            callback(undefined,'It is currently '+body.currently.temperature+ ' degrees.There is a '+body.currently.precipProbability+' % of rain')
         }
     })
 }    
